@@ -36,5 +36,5 @@ coding!
 
 - David: [GitHub](https://github.com/Daxyca) / [LinkedIn](https://linkedin.com/in/dxcallena)
 - Ako: [GitHub](https://github.com/AkoKBIkeda) / [LinkedIn](https://linkedin.com/in/akiko-kb-ikeda)
-- Teammate name #n: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
+- Bisi: [GitHub](https://github.com/skellynb) / [LinkedIn](https://linkedin.com/in/bisola-s-ogunsina)
 - Teammate name #n: [GitHub](https://github.com/ghaccountname) / [LinkedIn](https://linkedin.com/in/liaccountname)
