@@ -16,6 +16,8 @@ View detailed member data in a list
 
 Optionally chat with an AI assistant to learn how to use the app.
 
+### **DEPLOYMENT SITE :https://chingu-v58-team32-git-dev-daxycas-projects.vercel.app/**
+
 ## **Features**
 
 
