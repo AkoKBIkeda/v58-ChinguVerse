@@ -6,7 +6,7 @@ import ColorSample from "./components/ColorSample";
 import { HeadlineXL, Subheading1, Subheading2, Headline, Body1, Body2, Caption, Label } from "../component/typography";
 
 import { Button } from "@/components/ui/button";
-import { MapPin, Home, Filter, Users } from "lucide-react";
+import { MapPin, Home, Filter, Users, Copyright, Github} from "lucide-react";
 
 export default function DesignSystemPage() {
   const colors = [
@@ -77,12 +77,7 @@ export default function DesignSystemPage() {
              <Button variant="default">Default</Button>
             <Button variant="secondary">Secondary</Button>
             <Button variant="outline">Outline</Button>
-            <Button variant="ghost">Ghost</Button>
-            <Button variant="link">Link</Button>
-            <Button variant="transparent">Transparent</Button>
-            <Button variant="pagination">Pagination</Button>
-            <Button variant="destructive">Destructive</Button>
-            <Button disabled>Disabled</Button>  
+            <Button variant="link">Link</Button> 
             </div>
 
          <Body1 className="mb-3 font-bold">Icon Buttons</Body1>
@@ -90,8 +85,16 @@ export default function DesignSystemPage() {
           <Button size="icon" variant="secondary" title="Map Search">
               <MapPin />
           </Button> 
-          <Button size="icon" variant="outline" title="Filter Users">
+          
+              <Button size="icon" variant="outline" title="Filter Users">
               <Filter />
+          </Button>
+          <Button size="icon" variant="outline" title="c-icon">
+              <Copyright />
+              
+              <Button size="icon" variant="outline" title="github">
+              <Github/>
+          </Button>
           </Button>
           <Button size="icon" variant="outline" title="Home">
               <Home />
