@@ -4,7 +4,7 @@ import { PageWrapper } from "../component/layouts/PageWrapper";
 import ColorSample from "./components/ColorSample";
 import { HeadlineXL, Subheading1, Subheading2, Headline, Body1, Body2, Caption, Label } from "../component/typography";
 import { Button } from "@/components/ui/button";
-import ChevronDown from "@/components/ui/icons/ChevronDown";
+import ChevronDown from "@/app/design-system/components/icons/ChevronDown";
 
 export default function DesignSystemPage() {
   const colors = [
