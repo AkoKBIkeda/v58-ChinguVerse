@@ -4,7 +4,10 @@ import { PageWrapper } from "../component/layouts/PageWrapper";
 import ColorSample from "./components/ColorSample";
 import { HeadlineXL, Subheading1, Subheading2, Headline, Body1, Body2, Caption, Label } from "../component/typography";
 import { Button } from "@/components/ui/button";
-import ChevronDown from "@/components/ui/icons/ChevronDown";
+import ChevronDown from "@/app/design-system/components/icons/ChevronDown";
+import GitHub from "@/app/design-system/components/icons/GitHub";
+import Login from "./components/icons/Login";
+import Logout from "./components/icons/Logout";
 
 export default function DesignSystemPage() {
   const colors = [
@@ -85,7 +88,19 @@ export default function DesignSystemPage() {
           <Body1 className="mb-3 font-bold mt-6">Reusable Icons</Body1>
           <p className="inline-flex items-center gap-1"><ChevronDown size={16} />This is a size 16 icon</p><br />
           <p className="inline-flex items-center gap-1"><ChevronDown />This is a default icon (size 20)</p><br />
-          <p className="inline-flex items-center gap-1"><ChevronDown size={24} />This is a size 24 icon</p>
+          <p className="inline-flex items-center gap-1"><ChevronDown size={24} />This is a size 24 icon</p><br />
+          <p className="inline-flex items-center gap-1">
+            <GitHub />
+            This is a responsive GitHub icon
+          </p><br />
+          <p className="inline-flex items-center gap-1">
+            <Login />
+            This is a Login icon
+          </p><br />
+          <p className="inline-flex items-center gap-1">
+            <Logout />
+            This is a Logout icon
+          </p>
         </section>
       </main>
     </PageWrapper>

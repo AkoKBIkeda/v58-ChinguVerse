@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Header from "@/components/layouts/Header";
+import Footer from "@/components/layouts/Footer";
+import "leaflet/dist/leaflet.css";
+import ChatWindow from "./component/chat";
+import { AuthProvider } from "./chinguverse/auth/AuthContext";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,9 +30,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-[100vh] flex flex-col`}
       >
-        {children}
+        <AuthProvider>
+          <Header />
+          <main className="flex-1">
+            {children}
+            <ChatWindow />
+          </main>
+          <Footer />
+        </AuthProvider>
       </body>
     </html>
   );
